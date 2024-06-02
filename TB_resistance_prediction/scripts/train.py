@@ -111,15 +111,9 @@ class TrainingModule(LightningModule):
 
         self.test_step_aucs.append(roc_auc)
 
-        # store wandb
-        #if self.record_run : 
-            #wandb.log({'loss_test': loss})
-            #wandb.log({'AUC_test': roc_auc})
-
         return loss
     
-    #def on_test_epoch_end(self): 
-        #print('ENDDD TESTTTTT')
+
 
 
     def configure_optimizers(self):
