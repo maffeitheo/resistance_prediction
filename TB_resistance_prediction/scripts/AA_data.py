@@ -100,13 +100,6 @@ class AminoAcidDataset(Dataset) :
                 'tokens' : tokens}
 
 
-RIF_sequence_file = '/home/thm333/TB_resistance_prediction_2/data/aa_RIF.txt'
-train_strains_path = '/home/thm333/TB_resistance_prediction_2/data/8_RIF_0.0_MUTATION_SPLIT_0_TRAIN.txt'
-test_strains_path = '/home/thm333/TB_resistance_prediction_2/data/RIF_0.0_MUTATION_SPLIT_0_TEST'
-
-#AA_module = AminoAcidDataset(RIF_sequence_file, train_strains_path, test_strains_path, use_dataset_train=True)
-
-#print(AA_module.__getitem__(1)['tokens'])
 
 
 
